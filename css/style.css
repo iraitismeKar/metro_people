@@ -8,6 +8,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 35px;
 line-height: 42px;
+box-sizing: border-box;
 }
 
 a {
@@ -39,4 +40,31 @@ a {
 
 .mine-navigation {
     display: flex;
+    width: 100%;
+}
+
+.header-logo {
+  width: 428px;
+  height: 135px;
+  padding: 0;
+  margin: 0px 218px 0px 0px;
+}
+
+.site-navigation {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+}
+
+.navigation-space {
+
+}
+
+.navigation-item {
+  display: inline-block;
+  width: 304px;
+  padding: 0;
+  margin: 0;
 }
