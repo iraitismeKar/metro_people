@@ -9,3 +9,34 @@ font-weight: normal;
 font-size: 35px;
 line-height: 42px;
 }
+
+a {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0, 0, 0, 0);
+}
+
+.main-header {
+  width: 100%;
+  min-height: 91px;
+  margin-top: 0px;
+  font-size: 35px;
+  line-height: 42px;
+  text-align: center;
+  color: #000000;
+}
+
+.mine-navigation {
+    display: flex;
+}
