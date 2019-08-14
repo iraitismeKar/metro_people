@@ -39,15 +39,20 @@ a {
 }
 
 .mine-navigation {
+    position: relative;
     display: flex;
     width: 100%;
+    justify-content: flex-end;
 }
 
 .header-logo {
+  position: absolute;
   width: 428px;
   height: 135px;
   padding: 0;
-  margin: 0px 218px 0px 0px;
+  margin: 0px;
+  left: 1px;
+  top: 8px;
 }
 
 .site-navigation {
@@ -56,15 +61,38 @@ a {
   padding: 0;
   margin: 0;
 }
-}
 
 .navigation-space {
-
+  width: 300px;
+  padding: 0;
+  margin: 0;
 }
 
 .navigation-item {
   display: inline-block;
-  width: 304px;
+  width: 300px;
   padding: 0;
   margin: 0;
+  margin-top: 50px;
+  color: #000000;
+}
+
+.main-header::after {
+  content: "";
+  display: flex;
+  width: 1200px;
+  height: 14px;
+  background-color: #F7EBF5;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.activity {
+  display: flex;
+  flex-direction: column;
 }
