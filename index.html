@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <title>Люди в дорге</title>
   <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+  <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
   <link href="css/normalize.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
 </head>
@@ -26,9 +27,34 @@
         <h2 class="title_2">в дороге</h2>
       </div>
       <img class="icon-click" src="img/clik2.svg" width="59" height="59" alt="Кликните левой кнопкой мышки на скетч">
-    </div>
-    <img class="main-scetch" src="img/104.jpg" width="482" alt="Быстрый набросок">
+      </div >
+      <section class="main-scetch">
+        <div class="fotorama"
+          data-width="48S"
+          data-height="730"
+          data-fit="contain"
+          data-arrows="false"
+           data-click="true"
+          data-transition="dissolve"
+          data-nav="falsew"
+          data-loop="true"
+          data-keyboard="true">
+          <img src="img/104.jpg">
+          <img src="img/103.jpg">
+          <img src="img/102.jpg">
+          <img src="img/101.jpg">
+          <img src="img/100.jpg">
+          <img src="img/99.jpg">
+          <img src="img/98.jpg">
+          <img src="img/97.jpg">
+        </div>
+      </section>
+    <!-- <img class="main-scetch" src="img/104.jpg" width="482" alt="Быстрый набросок"> -->
 
   </main>
   <footer class="main-footer"></footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <!-- <scrept src="js/jquery-3.4.1.min.js"></scrept> -->
+  <scrept src="js/scrept.js"></scrept>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
 </body>
