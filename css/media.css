@@ -1,0 +1,64 @@
+@media screen and (max-width: 1200px) {
+body {
+  width: 100%;
+}
+
+.main-header {
+  min-height: 100px;
+}
+
+.mine-navigation {
+  display: flex;
+  flex-direction: column;
+   align-items: center;
+}
+
+.header-logo {
+  position: relative;
+}
+
+.site-navigation {
+  position: absolute;
+  top: 1300px;
+ flex-direction: column;
+ flex-grow: 1;
+ align-items: center;
+ margin-bottom: 45px;
+}
+.navigation-space{
+  width: 100%;
+  margin-top: 15px;
+}
+
+.navigation-item {
+    margin: 0px;
+}
+
+.container {
+   flex-direction: column;
+   align-items: center;
+}
+
+.title_1 {
+  margin-top: 0px;
+}
+
+.title_2 {
+  margin-bottom: 30px;
+}
+
+.icon-click {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0, 0, 0, 0);
+}
+}
+
+}

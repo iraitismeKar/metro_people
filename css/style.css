@@ -84,7 +84,7 @@ a {
 .main-header::after {
   content: "";
   display: flex;
-  width: 1200px;
+  width: 100%;
   height: 14px;
   background-color: #F7EBF5;
   align-items: center;
@@ -131,7 +131,7 @@ a {
 .main-footer {
   content: "";
   display: flex;
-  width: 1200px;
+  width: 100%;
   height: 14px;
   background-color: #B7CEED;
   align-items: center;
