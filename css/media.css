@@ -18,8 +18,6 @@ body {
 }
 
 .site-navigation {
-  position: absolute;
-  top: 1300px;
  flex-direction: column;
  flex-grow: 1;
  align-items: center;
@@ -59,6 +57,20 @@ body {
           clip-path: inset(100%);
   clip: rect(0, 0, 0, 0);
 }
+
+.info-container-text{
+    min-height: 490px;
+}
+}
+
+@media screen and (max-width: 650px) {
+
+.info-text {
+width: 70%;
+}
+
+.info-container-text {
+  margin-top: 25px;
 }
 
 }
