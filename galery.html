@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="ru">
 <head>
   <meta charset="utf-8">
@@ -8,6 +9,7 @@
   <link href="css/media.css" rel="stylesheet">
 </head>
 <body>
+  <h1 class="visually-hidden">Картинная галерея</h1>
   <div class="galery-body"></div>
   <header class="main-header">
     <nav class="mine-navigation" aria-label="Основная навигация">
@@ -22,14 +24,16 @@
   </header>
   <main class="galery-container">
     <section class="galery-advertising">
-      <img class="advertising-image" src="img/merch.webp" width="600" height="400">
+      <h2 class="visually-hidden">Поддержи проект</h2>
+      <img class="advertising-image" src="img/merch.webp" width="600" height="400" alt="На изображении картина и футблока">
       <div class="advertising-text-space">
-        <p class="advertising-text">Приобрети футболку</br>или картину*,</br>поддержи проект.</p>
+        <p class="advertising-text">Приобрети футболку<br>или картину*,<br>поддержи проект.</p>
         <a class="advertising-link" href=""  aria-label="Узнайте как поддержать проект">Подробнее</a>
         <p class="advertising-caption">*Каждая картина в единственном экзкмпляре</p>
       </div>
     </section>
     <section class="galery-spase">
+      <h2 class="visually-hidden">Все доступные изображения</h2>
       <ul class="galery-list">
         <li class="galery-item">
           <img class="galery-photo" src="img/104.jpg" alt="Изображение номер 104" height="570">
@@ -334,7 +338,8 @@
     </ul>
     </section>
     <section class="modal modal-price">
-      <img class="modal-image" src="img/merch-big.webp"alt="на изображении футболка, кружка и картина" height="490">
+      <h2 class="visually-hidden">Как приобрести картину</h2>
+      <img class="modal-image" src="img/merch-big.webp" alt="на изображении футболка, кружка и картина" height="490">
       <p class="galery-text">Для заказа продукции выберите любое изображение на сайте и напишите ваши пожелания на почту o.irina.k@gmail.com</p>
       <p class="galery-text">Так же наши специалисть готовы помочь вам выбрать картину, багет или подборать любой носитьель (кружки, салфетки, значки, толстовки, майки, футболки, платки, и др.)</p>
       <button class="modal-close" type="button">Закрыть</button>
